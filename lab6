@@ -1,0 +1,51 @@
+Algoritmos e Tipos Abstratos de Dados
+Lab 6 - Utilização do ADT Stack
+🎯 Objetivos:
+
+Metodologia para utilização de ADTs na linguagem C nas vertentes:
+
+Especificação, Implementação e Utilização.
+📚 Referências:
+
+
+Important
+
+Para verificar a correta gestão de memória dinâmica é necessário o Valgrind (Linux/WSL) ou DrMemory (Windows/MinGW). Consulte o CProgramTemplate para ver como pode utilizar estas ferramentas.
+
+1 | Introdução
+O objetivo deste laboratório é o de consolidar a metodologia proposta para a especificação, implementação e uso de tipos abstratos de dados na Linguagem C. Para tal será solicitado a obtenção e uso do ADT Vector3D, cujo propósito é permitir a manipulação de vetores num espaço cartesiano tri-dimensional.
+
+Note
+
+Durante as etapas serão solicitados simultaneamente a execução de exercícios nas três vertentes anteriores;
+
+Deverá obedecer à nomenclatura proposta, nomeadamente a utilização do prefixo vector3d... para os nomes das operações e VECTOR3D_... para os códigos de erro;
+
+A especificação do ADT deve ser acompanhada pela documentação doxygen.
+
+2 | Definição de estrutura de dados
+Defina a estrutura de dados necessária para guardar a informação de uma instância de um vector;
+
+Implemente as funções vector3dCreate (pseudo-construtor) e vector3dPrint, seguindo a documentação fornecida.
+
+Teste o programa fornecido inicialmente, verificando a sua correção.
+
+⚠️ Deverá completar o makefile incluído sempre que necessário.
+Verifique a correção da gestão de memória dinâmica.
+
+3 | Gestão de memória e teste
+Implemente a função vector3dDestroy (pseudo-destrutor) e utilize-a para libertar a memória da instância do vector declarado no programa inicial. Verifique a correção da gestão de memória dinâmica.
+
+Declare duas novas instâncias de PtVector3d e imprima os seus conteúdos.
+
+Uma inicializada através de vector3dCreate; a outra inicializada a NULL.
+
+Verifique a correção da gestão de memória dinâmica.
+
+4 | Implementação de funções (1/3)
+
+
+5 | Implementação de funções (2/3)
+
+
+6 | Implementação de funções (3/3)
