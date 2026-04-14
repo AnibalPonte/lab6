@@ -14,11 +14,25 @@
 
 
 ### 1 | Introdução
-O objetivo deste laboratório é o de consolidar a metodologia proposta para o uso de tipos abstratos de dados na Linguagem C. Para tal será solicitado o uso do *ADT Stack*, cujo propósito é a utilização deste ADT para trabalhar com listas do tipo LIFO (*Last In First Out*).
+O objetivo deste laboratório é o de consolidar a metodologia proposta para o uso de tipos abstratos de dados na Linguagem C. Para tal será solicitado o uso do *ADT Stack*, cujo propósito é a utilização deste ADT para trabalhar com listas do tipo LIFO (*Last In First Out*), também chamadas pilhas.
 
 
 
 
 ### 2 | Definição de estrutura de dados
+
+
+
+### 3 | Gestão de memória e teste
+
+
+
+### 4 | Implementação de funções (1/3)
+
+
+### 5 | Implementação de funções (2/3)
+
+
+### 6 | Implementação de funções (3/3)
 
 
